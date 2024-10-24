@@ -10,5 +10,5 @@ so to generate table 8x8 with frames for letters and numbers:
 table>((thead>tr>th*10)+(tbody>tr*8>td+th*8+th)+(tfoot>tr>th*10))
 ```
 To generate base html just press **!** and enter <br>
-If there is no possibility to click on emmet tip combination of **ctrl+space** will help <br>
-To add css file type **link** above **title** tag
+To add css file type **link** above **title** tag<br>
+If there is no possibility to click on emmet tip combination of **ctrl+space** will help 
