@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.table-container {
+    display: flex;
+}
+
+.table2 {
+    border: 5px solid black;
+    border-collapse: collapse;   
+}
+
+th, tr {
+    width: 50px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.table2 tr:nth-child(even) th:nth-child(odd),
+.table2 tr:nth-child(odd) th:nth-child(even) {
+    background-color: grey;
+}
+
+.table2 tr:nth-child(even) th:nth-child(even),
+.table2 tr:nth-child(odd) th:nth-child(odd) {
+    background-color: white;
+}
+
